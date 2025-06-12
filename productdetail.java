@@ -7,18 +7,15 @@ public class productdetail {
         int originalPrice = 3949;
         float rating = 4.6f;
         int size1 = 39;
-        int size2 = 40;
-        int size3 = 41;
-        int size4 = 42;
         String Brand = "HIGHLANDER";
         String description = "Men Comfort Relaxed Fit Textured Spread Collar Casual Shirt";
-        System.out.println("HIGHLANDER");
-        System.out.println("description");
-        System.out.println("discount");
-        System.out.println("sellingPrice");
-        System.out.println("originalPrice");
-        System.out.println("rating");
-        System.out.println("size1")
+        System.out.println(Brand);
+        System.out.println(description);
+        System.out.println(discount);
+        System.out.println(sellingPrice);
+        System.out.println(originalPrice);
+        System.out.println(rating);
+        System.out.println(size1);
 
     }
 }
