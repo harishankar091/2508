@@ -7,7 +7,7 @@ public class iventorysystemCRM {
         // calcualtion using operators
         double totalvalueinstock = productquatity * unitprice;
         boolean productquatityisbelowreorderthreshold = productquatity > 6;
-        boolean issufficientandproductismarkedforsale = productquatity > 6 && reorderthreshold;
+        boolean issufficientandproductismarkedforsale = productquatity > 6 || reorderthreshold;
         productquatity--; // decrement product quatity after sale
         //print results
         System.out.println("productname is " + productname);
