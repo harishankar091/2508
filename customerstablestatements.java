@@ -5,17 +5,18 @@ public class customerstablestatements {
         String customerName = "hari";
         boolean isPremium = true;
         int yearsofpartnership = 4;
-        String dealstage = "negotiation";
+        String dealstage = "proposal";
         double dealvalue = 100000.00;
         // conditional statements for customer table
         double baseDiscount = 0;
         if (isPremium) {
             baseDiscount = 10.0;
-        }else if (yearsofpartnership >= 3) {
+        }if (yearsofpartnership >= 3) {
             baseDiscount = 0.5;
         }else {
             baseDiscount = 0;
         }
+        double basediscount = isPremium ? 0.5 : 0;
         // extra discount based on deal stage
         double extraDiscount = 0;
         switch (dealstage) {
