@@ -1,6 +1,6 @@
 public class salespersonmain {
     public static void main(String[] args) {
-        salespersoninfo sp = new salespersoninfo();
+        Salesperson sp = new Salesperson();
         sp.inputSalespersonDetails();
         sp.setDealsClosed();
         sp.calculateEarnings();
