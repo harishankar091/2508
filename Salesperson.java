@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class salespersoninfo {
+public class Salesperson {
     int salespersonId;
     String salespersonName;
     int dealsClosed;
