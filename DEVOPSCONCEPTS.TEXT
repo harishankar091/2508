@@ -9,3 +9,46 @@ LEARNING DEVOPS
     . INFRASTURUCTURE AS CODE
     . MONITORING AND LOGGING
     . TOOLS IN DEVOPS
+    
+    what is DEVOPS?
+    ans) devops is a software development approach that emphasizes collaboration and communication b/w
+        development and operations teams.
+
+    What is software development life cycle?
+    Ans) The Software Development Lifecycle (SDLC) is a structured process used by 
+    software developers and project managers to design, develop, test, deploy, and maintain software. 
+
+    --> SDLC MODELS
+       . Waterfall MODELS - Linear and sequential each phase must be completed before the next begins.
+       . agile MODEL - Iterative and incremental,emphasizes collaboration, flexibility, and continuous delivery nad it's given a sprints.
+       . spiral MODEL - Combines iterative development with risk analysis.
+       . v MODEL(Validation and Verification) - Extension of Waterfall with corresponding testing phases.
+       . iteration MODEL - the software is developed and refined through repeated cycles (iterations).
+       . devops MODEL - Integrates development and operations for continuous integration and delivery (CI/CD).
+
+       --> phases of  MODELS
+        .Waterfall MODEL - Planning,designing,implementation,testing,maintainance.
+        .agile MODEL - Planning,designing,testing,review,cilent feedback.
+        .spiral model - Planning,risk analysis, Engineering,Evaluation.   
+        .v model 
+          Development Phase	                    Corresponding Testing Phase
+           Requirement analysis     ->          Acceptance testing
+           System analysis          ->          System testing
+           Software design          ->          Integration testing
+           Module design            ->          Unit design
+           Coding                   ->          Coding development.
+        
+        .Iteration model - Planning,Requirement Analysis,Design,Implementation,Testing,Deployment,Maintainance.
+        . devops model - Planning,coding,building,testing,deployment,operate,monitor.
+
+
+
+        --> DEVOPS LIFE CYCLE
+           In this life cycle have 7 c's are present.
+           .continuous development - plan,code
+           .continuous integration - it's combines the CD,CT,CM,CD.
+           .continuous testing - build,test
+           .continuous deployment - release,deploy
+           .continuous MONITORING - operate,monitor
+           .continuous feedback -  after the released product or software its review from cilent.
+           .continuous operations - practice on the applications and infrasturcture.
